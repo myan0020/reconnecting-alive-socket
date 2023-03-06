@@ -1,13 +1,13 @@
 {
   "name": "reconnecting-alive-socket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A typescript library to realize reconnecting websocket",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "version": "npm run build && git add -A lib",
+    "version": "npm run build && git add .",
     "postversion": "git push && git push --tags"
   },
   "keywords": [
