@@ -1,4 +1,4 @@
-interface ReconnectingAliveSocketEvent extends CustomEvent {
+export interface ReconnectingAliveSocketEvent extends CustomEvent {
   isReconnect?: boolean;
   code?: number;
   reason?: string;
