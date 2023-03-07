@@ -10,12 +10,19 @@
     "version": "npm run build && git add .",
     "postversion": "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myan0020/reconnecting-alive-socket.git"
+  },
   "keywords": [
     "reconnecting",
     "websocket",
     "alive"
   ],
   "author": "MingDongShenSen",
+  "bugs": {
+    "url": "https://github.com/myan0020/reconnecting-alive-socket/issues"
+  },
   "license": "ISC",
   "files": [
     "lib/**/*"
@@ -23,6 +30,7 @@
   "exports": {
     ".": "./lib/index.js"
   },
+  "homepage": "https://github.com/myan0020/reconnecting-alive-socket#readme",
   "devDependencies": {
     "typescript": "^4.9.5"
   }
