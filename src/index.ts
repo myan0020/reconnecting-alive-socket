@@ -107,8 +107,8 @@ class ReconnectingAliveSocket {
   /** An event listener to be called when an error occurs. */
   onerror(event: Event) {}
 
-  addEventListener(type: string, callback: EventListener): void {}
-  removeEventListener(type: string, callback: EventListener): void {}
+  addEventListener(type: string, callback: EventListener, options?: boolean | AddEventListenerOptions | undefined): void {}
+  removeEventListener(type: string, callback: EventListener, options?: boolean | AddEventListenerOptions | undefined): void {}
   dispatchEvent(event: Event) {}
 
   open(isReconnectAttempt: boolean) {
